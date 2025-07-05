@@ -47,15 +47,12 @@ Each model is evaluated and compared based on standard metrics.
 
 ```bash
 Call-Transcript-Scam-Detection/
-├── data/
-│   └── BETTER30.csv              # Raw dataset from Kaggle
-│   └── call_transcript_cleaned.csv
-├── notebooks/
-│   ├── LSTM.ipynb
-├── utils/
-│   └── data_preprocessing.py             # Functions to clean and parse transcript
-├── requirements.txt
+└── BETTER30.csv              # Raw dataset from Kaggle
+└── call_transcript_cleaned.csv
+├── LSTM.ipynb
+└── data_preprocessing.py             # Functions to clean and parse transcript
 └── README.md
+└── LICENSE
 ```
 
 ## 📈 Results
